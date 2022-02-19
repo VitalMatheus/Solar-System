@@ -10,7 +10,6 @@ class PlanetCard extends React.Component {
           { planetName}
         </p>
         <img src={ planetImage } alt={ `Planeta ${planetName}` } />
-        
       </div>
     );
   }
