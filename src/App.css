@@ -1,3 +1,80 @@
 .App {
   text-align: center;
 }
+
+body {
+  background: url('./images/background.png');
+  color: white;
+  margin: 50px;
+  cursor: default;
+}
+
+.headerBox {
+  display: flex;
+  justify-content: center;
+  font-size:xx-large;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.titleBox {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 20px 40px;
+  border: solid 1px white;
+  border-radius: 5px;
+  width: 250px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.solarSystemBox {
+  display: flex;
+}
+
+.planetCardBox p {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.planetCardBox img {
+  width: 150px;
+}
+
+.planetCardBox img:hover {
+  width: 200px;
+  transition: width 3s;
+  cursor: pointer;
+}
+
+.missionsBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.missionCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.missionCardBox {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.missionCardBox:hover {
+  background-color:rgb(85, 85, 179);
+  cursor: pointer;
+}
